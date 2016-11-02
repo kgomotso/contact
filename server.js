@@ -39,7 +39,7 @@ Contactlist.find(function(err,contact){
 	//res.jason(docs);
 });
 });
-/*
+
 //Contactlist.save(function(err){
 //	if (err) throw err;
 //});
@@ -75,7 +75,7 @@ app.put('/contactlist/:id', function(req, res) {
 			res.json(doc);
 	});
 	
-	});*/
+	});
 
  app.listen(27017);
  console.log("server running on port 27017");
